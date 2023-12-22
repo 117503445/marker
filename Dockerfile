@@ -1,6 +1,6 @@
 ARG IMAGE_TAG=2.1.0-cuda11.8-cudnn8-runtime
 
-FROM pytorch/pytorch:${IMAGE_TAG}
+FROM registry.cn-hangzhou.aliyuncs.com/117503445-mirror/pytorch:${IMAGE_TAG}
 
 VOLUME /root/.cache
 
